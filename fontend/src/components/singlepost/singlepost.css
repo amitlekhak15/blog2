@@ -1,0 +1,79 @@
+.singlepost{
+    flex:9
+}
+.singlepostwrapper{
+    padding:20px;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+}
+.singlepostimage{
+    width:100%;
+    height:300px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.singlepostitle{
+    text-align: center;
+    margin:10px;
+    font-family: "Lora",serif;
+    font-size: 28px;
+}
+.singlepostitleinput{
+    margin:10px;
+    font-family: "Lora",serif;
+    font-size: 28px;
+    text-align: center;
+    color: grey;
+
+}
+.singlepostitleinput:focus{
+    outline: none;
+}
+.singlepostedit{
+    float: right;
+    font-size:16px;
+}
+.singleposticon{
+    margin-left:10px;
+    cursor: pointer;
+
+}
+.singleposticon:first-child{
+    color: blue;
+}
+.singleposticon:last-child{
+    color:red
+}
+.singlepostinfo{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color:yellowgreen
+}
+.singlepostdescription{
+    color:#666;
+    font-size:18px;
+    line-height: 25px;
+}
+.singlepostdescriptioninput{
+    color:#666;
+    font-size:18px;
+    line-height: 25px;
+
+}
+.singlepostdescriptioninput:focus{
+    outline: none;
+}
+.singlepostbutton{
+    width:100px;
+    border:none;
+    background-color: black;
+    padding: 5px;
+    color:white;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-top: 20px;
+}

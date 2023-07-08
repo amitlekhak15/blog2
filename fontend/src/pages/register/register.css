@@ -1,0 +1,51 @@
+.register{
+    height: calc(100vh-50px);
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),  url("https://th.bing.com/th/id/R.43de5114594c20c647b8ef6f280c83ae?rik=EKDYbB4dW1vdpw&riu=http%3a%2f%2fsfwallpaper.com%2fimages%2fblog-wallpaper-2.jpg&ehk=D8npeYO9xxWSTCnJtSl6x2fCkV26iPgH%2baztpQaTbpY%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+}
+.registertitle{
+    margin-top: 20px;
+    font-size: 50px;
+}
+.registerform{ 
+    
+    height:800px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction:column;
+}
+.registerform>label{
+    margin: 10px,0;
+
+}
+.registerinput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+
+}
+.registerbutton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color:white;
+    border-radius: 10px;
+   
+}
+
+.registerloginbutton{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background-color: lightskyblue;
+    border: none;
+    color:white;
+    border-radius: 10px;
+   
+}
